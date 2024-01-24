@@ -1,12 +1,16 @@
+ #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- *  * main - prints the name of the file
+ *  * main - Entery point
  *   *
- *    * Return: Always 0 (Success)
+ *    * Return: 0 (SUCESS)
  *     */
 int main(void)
 {
-		printf("%s\n", __FILE__);
-			return (0);
+	printf("%s\n", __FILE__);
+	return (EXIT_SUCCESS);
 }
+
+
