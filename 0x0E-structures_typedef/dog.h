@@ -1,5 +1,6 @@
 #ifndef _HEADER_
 #define DOG_H
+
 struct dog
 {
 		char *name;
